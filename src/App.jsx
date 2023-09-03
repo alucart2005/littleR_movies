@@ -1,11 +1,14 @@
-import './App.css'
+import "./App.css";
+import MyRouts from "./routers/routes"
 
 function App() {
   return (
-    <header>
-      <h1 className='tittle'>🎬 Movies</h1>
-    </header>
-  )
+    <div>
+      <header>
+        <h1 className="tittle">🎬 Movies</h1>
+      </header>
+    </div>
+  );
 }
 
-export default App
+export default App;
