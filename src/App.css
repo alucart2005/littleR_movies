@@ -10,6 +10,7 @@ body{
   color: white;
 }
 .tittle {
+  margin-top: 18px;
   text-align: center;
   font-size: 3rem;
   color: rgb(171, 98, 171);

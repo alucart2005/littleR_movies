@@ -1,8 +1,11 @@
 .movieCard{
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   transition: 0.5s;
+  box-shadow: 7px 7px 15px rgba(56, 40, 58, 0.5);
+  border-radius: 8px;
+  background-color: rgba(142, 92, 164, 0.5);
 }
 .movieCard:hover{
   opacity: 0.5;
@@ -10,11 +13,11 @@
   transition: 0.5s;
 }
 .movieImage{
-  border-radius: 8px;
+  border-radius: 8px 8px 0 0;
 }
 @media (max-width: 560px){
-  .movieImage{
-    width: 130%;
+  .movieImage .movieCard{
+    width: 90%;
     height: auto;
   }  
 }
