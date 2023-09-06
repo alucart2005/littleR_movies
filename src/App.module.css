@@ -5,14 +5,14 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
+body {
   background-color: #242424;
   color: white;
 }
-.tittle {
-  margin-top: 18px;
+.title{
+  margin-top: 20px;
   text-align: center;
   font-size: 3rem;
-  color: rgb(171, 98, 171);
-  letter-spacing: 3px;
+color:#9F91FE;
+text-decoration: none;
 }
