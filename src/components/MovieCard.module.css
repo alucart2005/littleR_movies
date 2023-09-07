@@ -1,0 +1,30 @@
+.movieCard {
+  list-style: none;
+  font-size: 1.3rem;
+  text-align: center;
+  transition: 0.5s;
+  box-shadow: 7px 7px 15px rgba(56, 40, 58, 0.5);
+  border-radius: 7px 7px 4px;
+  background-color: rgba(34, 30, 36, 0.5);
+}
+.movieCard:hover {
+  opacity: 0.5;
+  transform: translateY(-30px);
+  transition: 0.5s;
+}
+.movieImage {
+  border-radius: 7px 7px 0 0;
+}
+.titles {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #9f91fe;
+  text-decoration: none;
+}
+@media (max-width: 560px) {
+  .movieImage .movieCard {
+    width: 90%;
+    height: auto;
+  }
+}
